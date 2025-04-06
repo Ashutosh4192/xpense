@@ -1,16 +1,54 @@
-# xpense
+# Xpense - Personal Expense Tracker
 
-A new Flutter project.
+**Xpense** is a Flutter-based personal expense tracking application designed to help users manage and visualize their daily spending.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Add Expenses**: Log expenses by entering:
+  - Title
+  - Amount
+  - Date
+  - Category (Leisure, Food, Travel, Work)
 
-A few resources to get you started if this is your first Flutter project:
+- **Bar Chart Visualization**: Analyze your spending habits through a bar chart that displays the distribution of expenses by category.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Category Management**: Classify expenses into predefined categories for better organization and insights.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Responsive UI**: Clean, minimal, and user-friendly interface adaptable to various screen sizes.
+
+## Screenshots
+(Add screenshots here)
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/a527898a-16b3-4b67-a4f2-a8a0f9811835" width="65%"></td>
+    <td><img src="https://github.com/user-attachments/assets/15d5fd3e-fb42-46f4-802d-f587280d8ed2" width="65%"></td>
+    <td><img src="https://github.com/user-attachments/assets/4cb31c16-fc64-4be1-b35f-fcde2a31cc17" width="65%"></td>
+  </tr>
+</table>
+
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/xpense_app.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd xpense_app
+   ```
+3. Install dependencies:
+   ```sh
+   flutter pub get
+   ```
+4. Run the app:
+   ```sh
+   flutter run
+   ```
+
+## Technologies Used
+
+- **Flutter**: UI development
+- **Dart**: Programming language
+- **Charts**: For bar chart visualization
+- **Material Design**: UI Components
+
